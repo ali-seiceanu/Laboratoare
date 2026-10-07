@@ -1,22 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
-<title>Preferinte TV</title>
-<style>
-</style>
+  <meta charset="UTF-8">
+  <title>Laboratorul 2 – Preferințe TV</title>
+  <link rel="stylesheet" href="stil.css">
+  <style>
+    .meniu {
+      background-color: rgb(224, 219, 198);
+    }
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 2px solid rgb(218, 43, 218);
+      padding: 8px 12px;
+      text-align: center;
+    }
+    th {
+      background-color: cyan;
+    }
+    td {
+      background-color: #94d166;
+    }
+  </style>
 </head>
 <body>
-<div style="background-color:Cornsilk">
-<a href="index.html">Acasa</a>
-<br>
-<a href="filme.html">Preferinte TV</a>
-<br>
-<a href="muzici.html">Preferinte muzicale</a>
-<br>
-<hr>
-</div>
-<div>
-<h1>Filme si seriale</h1>
-</div>
+  <div class="meniu">
+    <a href="../index.html">Laboratoarele mele</a>
+    <br>
+    <a href="index.html">Acasa</a>
+    <br>
+    <a href="filme.html" class="activ">Preferinte TV</a>
+    <br>
+    <a href="muzici.html">Preferinte muzicale</a>
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <h1>Filme si seriale</h1>
+  </div>
+
+  <table>
+    <tr>
+      <th></th>
+      <th>Ziua</th>
+      <th>Post TV</th>
+      <th>Film / Serial</th>
+    </tr>
+    <tr>
+      <th rowspan="3">Filme și seriale preferate</th>
+      <td>Marti</td>
+      <td>HBO</td>
+      <td>The Big Bang Theory</td>
+    </tr>
+    <tr>
+      <td>Joi</td>
+      <td>Disney</td>
+      <td>Once Upon a Time</td>
+    </tr>
+    <tr>
+      <td>Vineri</td>
+      <td>Netflix</td>
+      <td>Dr. House</td>
+    </tr>
+  </table>
 </body>
 </html>
